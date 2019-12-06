@@ -1,0 +1,1 @@
+This is the second project for the Amit web development course done using html & css
