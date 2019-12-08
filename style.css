@@ -1,93 +1,113 @@
-                        .split {
-                            height: 85%;
-                            width: 50%;
-                            position: fixed;
-                            z-index: 1;
-                            top: 0;
-                            overflow-x: hidden;
-                        }
-                        
-                        .left {
-                            left: 0;
-                            background-image: url(./assets/twitter-icon-blue-bg.png);
-                            background-position: center;
-                            background-size: 150%;
-                            color: white;
-                        }
-                        
-                        .right {
-                            right: 0;
-                        }
-                        
-                        .centered {
-                            position: relative;
-                            top: 28%;
-                            left: 10%;
-                            text-align: left;
-                        }
-                        
-                        .main-logo {
-                            height: 90px;
-                            width: 90px;
-                        }
-                        
-                        a {
-                            text-decoration: none;
-                            color: inherit;
-                        }
-                        
-                        #top {
-                            display: flex;
-                        }
-                        
-                        .button {
-                            background: transparent;
-                            width: 80%;
-                            height: 20%;
-                            border-color: rgb(0, 169, 255);
-                            line-height: 20px;
-                            border-radius: 100px;
-                            position: relative;
-                            font-size: 14px;
-                            font-weight: bold;
-                            text-align: center;
-                            padding: 6px 16px;
-                        }
-                        
-                        .signup {
-                            background-color: rgb(0, 169, 255);
-                            color: #fff;
-                            margin-bottom: 16px;
-                        }
-                        
-                        .login {
-                            color: rgb(0, 169, 255)
-                        }
-                        
-                        .top {
-                            position: relative;
-                            width: 11%;
-                            height: 80%;
-                            border-radius: 100px;
-                            margin-left: 50%;
-                            justify-content: center;
-                        }
-                        
-                        footer {
-                            margin-top: 40%;
-                            position: absolute;
-                        }
-                        
-                        footer ul {
-                            width: auto;
-                            list-style: none;
-                            display: flex;
-                            color: black;
-                            flex-wrap: wrap;
-                            justify-content: center;
-                        }
-                        
-                        li {
-                            padding-right: 15px;
-                            color: gray;
-                        }
+.split {
+    height: 90%;
+    width: 50%;
+    position: fixed;
+    z-index: inherit 1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.left {
+    left: 0;
+    background-image: url(./assets/twitter-icon-blue-bg.png);
+    background-position: center;
+    background-size: 100%;
+    color: white;
+}
+
+.right {
+    right: 0;
+}
+
+.centered {
+    position: relative;
+    top: 28%;
+    left: 10%;
+    text-align: left;
+}
+
+.Icon {
+    background: transparent;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    position: relative;
+    font-size: 35px;
+    margin-right: 16px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.main-logo {
+    height: 90px;
+    width: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#top {
+    display: flex;
+}
+
+.button {
+    background: transparent;
+    width: 80%;
+    height: 20%;
+    border-color: rgb(0, 169, 255);
+    line-height: 20px;
+    border-radius: 100px;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 16px;
+}
+
+.signup {
+    background-color: rgb(0, 169, 255);
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.login {
+    color: rgb(0, 169, 255)
+}
+
+.top {
+    position: absolute;
+    width: 12%;
+    border-radius: 100px;
+    left: 60%;
+    right: 5%;
+}
+
+footer {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+}
+
+footer ul {
+    width: auto;
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: center;
+}
+
+li {
+    padding-right: 15px;
+    color: gray;
+}
+
+
+}
