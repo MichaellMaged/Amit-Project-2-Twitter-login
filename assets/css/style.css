@@ -9,9 +9,9 @@
 
 .left {
     left: 0;
-    background-image: url(./assets/twitter-icon-blue-bg.png);
+    background-image: url(./assets/images/twitter-background.png);
     background-position: center;
-    background-size: 100%;
+    background-size: 150%;
     color: white;
 }
 
@@ -82,7 +82,7 @@ a {
 
 .top {
     position: absolute;
-    width: 12%;
+    width: auto;
     border-radius: 100px;
     left: 60%;
     right: 5%;
